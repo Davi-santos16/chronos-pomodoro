@@ -1,7 +1,7 @@
 import styles from "./Heading.module.css"
 
 type Headingprops ={
-    children:string
+    children:React.ReactNode
 }
 
 export default function Heading(props:Headingprops){
