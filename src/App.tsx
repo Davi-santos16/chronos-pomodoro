@@ -1,4 +1,7 @@
-import Heading from "./components/Heading"
+import { Logo } from "./components/Logo"
+import { Container } from "./components/Container"
+import { Menu } from "./components/Menu"
+
 
 
 import "./styles/theme.css"
@@ -8,39 +11,15 @@ import "./styles/global.css"
 export default function App (){
     return(
         <>
-        <div className="container">
-            <div className="content">
-                <section>
-                   LOGO
-                </section>
-            </div>
-        </div>
+         <Container>
+            <Logo/>
+         </Container>
 
-         <div className="container">
-            <div className="content">
-                <section>
-                   MENU
-                </section>
-            </div>
-        </div>
+         <Container>
+            <Menu/>
+         </Container>
 
-
-         <div className="container">
-            <div className="content">
-                <section>
-                    FORM
-                </section>
-            </div>
-        </div>
-
-
-         <div className="container">
-            <div className="content">
-                <section>
-                   FOOTER
-                </section>
-            </div>
-        </div>
+        
         </>
     )
 }
