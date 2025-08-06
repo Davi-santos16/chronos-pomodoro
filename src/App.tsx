@@ -1,6 +1,7 @@
 import { Logo } from "./components/Logo"
 import { Container } from "./components/Container"
 import { Menu } from "./components/Menu"
+import { CountDown } from "./components/CountDown"
 
 
 
@@ -17,6 +18,10 @@ export default function App (){
 
          <Container>
             <Menu/>
+         </Container>
+
+         <Container>
+            <CountDown/>
          </Container>
 
         
