@@ -8,6 +8,7 @@ import { DefautInput } from "./components/DefautInput"
 
 import "./styles/theme.css"
 import "./styles/global.css"
+import { Cycles } from "./components/Cycles"
 
 
 export default function App (){
@@ -34,8 +35,7 @@ export default function App (){
                     <p>Nesse ciclo foque por 25min</p>
                 </div>
                 <div className="formRow">
-                    <p>Ciclos</p>
-                    <p>0</p>
+                    <Cycles/>
                 </div>
                 <div className="formRow">
                     <button>Enviar</button>
