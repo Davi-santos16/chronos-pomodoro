@@ -17,9 +17,13 @@ import "./styles/theme.css"
 import "./styles/global.css"
 
 
+
 export default function App (){
+
+    
     return(
         <>
+        
          <Container>
             <Logo/>
          </Container>
@@ -35,7 +39,11 @@ export default function App (){
           <Container>
             <form className="form" action="">
                 <div className="formRow">
-                   <DefautInput labelText="Task" placeholder="Ex.: estudar para a prova"  id="meuInput" type="text" />
+                   <DefautInput 
+                   labelText='task' 
+                   placeholder="Ex.: estudar para a prova"  
+                   id="meuInput" 
+                   type="text" />
                 </div>
                 <div className="formRow">
                     <p>Nesse ciclo foque por 25min</p>
