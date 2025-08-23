@@ -5,10 +5,14 @@ import { DefautInput } from "../DefautInput";
 
 import { PlayCircleIcon } from "lucide-react";
 
+
+
 export function MainForm() {
+
   return (
     <>
-      <form className="form" action="">
+      <form  className="form" action="">
+       
         <div className="formRow">
           <DefautInput
             labelText="task"
@@ -18,7 +22,7 @@ export function MainForm() {
           />
         </div>
         <div className="formRow">
-          <p>Nesse ciclo foque por 25min</p>
+          <p>Proximo intervalo é de 25 min</p>
         </div>
         <div className="formRow">
           <Cycles />
